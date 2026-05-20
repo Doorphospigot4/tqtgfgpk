@@ -43,6 +43,9 @@ target-version = "py311"
 select = ["E", "F", "I", "UP"]
 ignore = ["E402"]
 
+[tool.ruff.lint.isort]
+known-first-party = ["tideguard_ml"]
+
 [tool.mypy]
 python_version = "3.11"
 warn_return_any = true
